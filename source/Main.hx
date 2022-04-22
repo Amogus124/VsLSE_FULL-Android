@@ -33,6 +33,8 @@ class Main extends Sprite
 	{
 		super();
 
+ 	  SUtil.gameCrashCheck();
+
 		if (stage != null)
 		{
 			init();
@@ -67,9 +69,7 @@ class Main extends Sprite
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
 
-		#if !debug
-		initialState = TitleState;
-		#end
+		SUtil.doTheCheck();
 	
 		ClientPrefs.loadDefaultKeys();
 		// fuck you, persistent caching stays ON during sex
