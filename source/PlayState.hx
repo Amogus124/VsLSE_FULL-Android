@@ -284,12 +284,10 @@ class PlayState extends MusicBeatState
     public var showTime:Bool = (ClientPrefs.timeBarType != 'Disabled');
 	var songLength:Float = 0;
 
-	#if desktop
-	// Discord RPC variables
+        //Discord RPC Thing (totally not for android)
 	var storyDifficultyText:String = "";
 	var detailsText:String = "";
 	var detailsPausedText:String = "";
-	#end
         
     
 
