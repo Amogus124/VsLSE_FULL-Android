@@ -28,7 +28,6 @@ class MusicBeatState extends FlxUIState
 	private var curStep:Int = 0;
 	private var curBeat:Int = 0;
 	public static var musInstance:MusicBeatState;
-	#if desktop
 	public var scaleRatio = ClientPrefs.getResolution()[1] / 720;
 	var modeRatio:RatioScaleMode;
 	var modeStage:StageSizeScaleMode;
