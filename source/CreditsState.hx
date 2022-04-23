@@ -82,6 +82,9 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+		      	['Android Porter'],
+			['Dxgamer',		    'dxgamer',		    'Main Coder of The Port',	 'https://youtube.com/c/Dxgamer7405',	'0xFFC30085'],
+			['PietroDev',		    'pietrodev',		    'Collab Porter',	 'https://youtube.com/c/PietronicolasOFC',	'FF6666'],
             ['Directors'],
 			['Sam H',		'samh',		'Director',						'https://twitter.com/Sam_HOfficial',	'00FFFF'],
             ['LongestSoloEver',		'lse',		'Music / Lead Coder / Charts / Menu Design / LSE Voice Actor',						'https://twitter.com/longestsoloever',	'FF6666'],
