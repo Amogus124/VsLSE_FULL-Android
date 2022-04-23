@@ -69,13 +69,6 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'bool',
 			false);
 		addOption(option);
-        
-        var option:Option = new Option('Enable Guitar Mode',
-			"Show a Guitar Fretboard during Solo Sections.",
-			'guitarMode',
-			'bool',
-			true);
-		addOption(option);
 
 		/*var option:Option = new Option('Note Delay',
 			'Changes how late a note is spawned.\nUseful for preventing audio lag from wireless earphones.',
