@@ -154,12 +154,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		}
 
 		if (controls.BACK) {
-			#if android
-                        FlxTransitionableState.skipNextTransOut = true;
-			FlxG.resetState();
-                        #else
-                        close();
-                        #end
+			close();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 		}
 
