@@ -95,7 +95,6 @@ class FreeplayState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
      
 		add(bg);
-		bg.scale.x = bg.scale.y = scaleRatio;
 		bg.screenCenter();
         
         
