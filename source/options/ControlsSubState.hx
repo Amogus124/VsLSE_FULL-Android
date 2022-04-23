@@ -135,7 +135,6 @@ class ControlsSubState extends MusicBeatSubstate {
 			if (controls.BACK) {
 				ClientPrefs.reloadControls();
 			        #if android
-                                FlxTransitionableState.skipNextTransOut = true;
 			        FlxG.resetState();
                                 #else
                                 close();
